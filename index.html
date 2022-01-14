@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Refresh" content="0; url=https://portafolio-oswaldo-parri-401e2.web.app/"/> -->
+    <title>Portafolio | Oswaldo Parrilla</title>
+    <!--ESTILOS CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--CDN SWIPER-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
+    <link rel="icon" href="/Img/cv1.png">  
+    
+</head>
+<!-- onload="document.yourForm.yourTextarea.focus();" -->
+<!-- onload="document.home.focus()" -->
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <!--BANNER-->
+    <section class="banner" id="home" name="hola">
+        <div class="imgSidebar" autofocus>
+            <img src="./Img/6.jpg" alt="">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText" id="lala">Mi Portafolio</h5>
+            <div class="alo">
+                <h4><span>Hola</span> soy</h4>
+                <h2>Oswaldo Parrilla</h2>
+                <h4>Ingeniero en Informatica.</h4>
+                <p>Estudiante egresado de Ing. Informática del Instituto Politecnico Nacional (UPIICSA) 
+                    con 3 años y medio de experiencia en Sistemas TI como practicante durante la carrera, 
+                    gusto por los retos, interesado y apasionado por la programación,por el testing, 
+                    la seguridad y la mayoria de ramas que ofrece la carrera, con la intención de 
+                    encontrar una oportunidad laboral en la que pueda desarrollarme en esta área para 
+                    desempeñarme profesional y personal, soy autodidacta responsable y muy paciente.</p>
+                <a href="#about" >
+                    <span>Sobre mi</span>
+                    <span>Sobre mi</span>
+                </a>
+                <!-- class="btn" -->
+            </div>
+            <ul class="sci">
+                <li><a href="https://www.linkedin.com/in/oswaldo-parrilla-chavez-9ba822144/" target="_blank"><img src="./Img/linkedin.png" alt=""></a></li>
+                <li><a href="https://twitter.com/Oswa87782621" target="_blank"><img src="./Img/tw.png" alt=""></a></li>
+                <li><a href="https://github.com/Oswaldo-Parrilla" target="_blank"><img src="./Img/github.png" alt=""></a></li>
+                <li><a href="https://wa.me/525560262865" target="_blank"><img src="./Img/whatsapp.png" alt=""></a></li>
+            </ul>
+        </div>  
+    </section>
+    <!--MENU-->
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Inicio</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Sobre mi</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Intereses</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Trabajos</a></li>
+            <!-- <li><a href="#testimony" onclick="toggleMenu();">Testimony</a></li> -->
+            <li><a href="#contact" onclick="toggleMenu();">Contacto</a></li>
+        </ul>
+    </div>
+
+    <section class="about" id="about">
+        <div class="title white">
+            <h2>Sobre mi</h2>
+            <p> 
+
+            </p>        
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <p>
+                    Amante de la música; Me considero una persona segura de sí misma, con la virtud de seguir aprendiendo, 
+                    a veces con tintes de despiste, aunque también soy susceptible ante las injusticias; sin embargo, 
+                    creo en la amistad sincera, a veces idealista, me gusta trabajar por lo que deseo, amante de las
+                    nuevas aventuras, y de los conciertos una persona amigable , un buen escucha a quien se puede confiar, 
+                    trato de ser una persona objetiva y parcial de las situaciones donde yo soy el mediador, una persona 
+                    extrovertida, seria en situaciones de concentración total y una persona apasionante con los videojuegos, 
+                    me gusta el futbol y conocer lugares del País.
+                </p>
+            </div>
+            <div class="imgBx">
+                <img src="./Img/oswal.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="title">
+            <h2>Mis intereses</h2>
+            <p>Un poco de los intereses que tengo sobre la carrera que estudie.</p>        
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="./Img/computer.png" alt="">
+                <h2>Desarrollador Web</h2>
+                <p>Es un area que me apasiona, lo llevo aprendiendo desde hace 2 años
+                    lo practico actualmente como un hobby y que he tenido la oportunidad 
+                    de practicarlo profesionalmente por un tiempo.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./Img/web-design.png">
+                <h2>Tester QA</h2>
+                <p>Es otro tema que me apasiona y estoy realizando un curso en udemy de fundamentos de QA con selenium
+                    y son temas interesantes para aprender sobre la calidad del producto que vaya a salir a produccion.
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./Img/react.png" alt="">
+                <h2>Desarrollador React</h2>
+                <p>Como lo antes mencionado me gusta mucho estudiar Desarrollo web y un lenguaje que 
+                    actualmente estoy aprendiendo mediante un Curso de Udemy es el de React, ya que se me hizo 
+                    muy amigable y espero poder ejercerlo en un futuro ya sea con un coorporativo o de freelance.
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./Img/support.png" alt="">
+                <h2>Soporte Tecnico</h2>
+                <p>Fue de los primeros empleos que tuve, y donde pude aprender mucho sobre el tema que tambien me dio
+                    un gusto grande sobre esta rama de la informatica, actualmente laboro de Soporte Tecnico y es donde 
+                    me he sentido mas fuerte en un area a desempeñar en lo labora.
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./Img/curso-online.png" alt="">
+                <h2>Cursos</h2>
+                <p>De esta forma pude aprender gran parte del conocimiento que hoy en dia estado adquiriendo
+                    es una forma de autocapacitarse y estudiar al tiempo que se vaya autogestionando, y ha sido muy 
+                    comodo a la hora de aprender.
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./Img/tester.png" alt="">
+                <h2>Base de Datos</h2>
+                <p>Actualemnte estoy en un curso de Base de datos donde desperto de igual forma mi interes
+                    de desempeñarlo en lo laboral, y reforzando conocimientos que adquiri en la Universidad.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="title">
+            <h2>Proyectos</h2>
+            <p>Estos son algunos de los trabajos personales y escolares que he realizado a lo largo 
+                de la carrera y algunos como práctica de los cursos que realizado.</p>        
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/Soporte.png" alt="">
+                </div>
+                <div class="textBx">
+                    <a href="https://pagina-web-soporte.web.app/" style="text-decoration: none" target="_blank" target="_blank">
+                        <h3>Projecto 01</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/recipes.png" alt="">
+                </div>
+                <div class="textBx">
+                    <a href="https://pagina-web-recipes.web.app/" style="text-decoration: none" target="_blank">
+                        <h3>Projecto 02</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/pcgamer1.jpeg" alt="">
+                </div>
+                <div class="textBx">
+                        <h3>Projecto 03</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/QaTesting.png" alt="">
+                </div>
+                <div class="textBx">
+                    <a href="https://www.udemy.com/course/qa-testing-guia-basica-para-qa-y-robot-framework/" style="text-decoration: none"  target="_blank">
+                        <h3>Projecto 04</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/patycd.png" alt="">
+                </div>
+                <div class="textBx">
+                    <a href="https://portafolio-paty-farias.web.app/" style="text-decoration: none"  target="_blank">
+                        <h3>Projecto 05</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/nextJS.png" alt="">
+                </div>
+                <div class="textBx">
+                        <h3>Projecto 06</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/portafolioOswa.png" alt="">
+                </div>
+                <div class="textBx">
+                    <a href="https://react-web-oswa.herokuapp.com/" style="text-decoration: none"  target="_blank">
+                        <h3>Projecto 07</h3>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/8.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <a href="" style="text-decoration: none">
+                        <h3>Project 07</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./Img/1.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <a href="" style="text-decoration: none">
+                        <h3>Project 08</h3>
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+<!-- 
+<section class="testimony" id="testimony">
+        <div class="title">
+            <h2>Recent Testimony</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sed consequuntur, deleniti voluptatum dolorum aliquam quod ea eligendi porro quia eveniet temporibus ducimus excepturi nesciunt aliquid officiis beatae provident? Facilis.</p>        
+        </div>
+        -SWIPER-
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="./Img/5.jpg" class="quote" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="./Img/2.jpg" class="quote" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="./Img/3.jpg" class="quote" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="./Img/4.jpg" class="quote" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section class="contact" id="contact"> 
+        <div class="title white">
+            <h2>Contactame</h2>
+            <p>Puedes Contactarme dejando tu nombre tu correo, tu numero de telefono 
+                y un breve mensaje donde yo estare contestando a la brevedad.</p>          
+        </div>
+        <form name="yourForm" method="POST" class="contactForm">
+            <div class="row">
+                <div class="col50">
+                    <input  class="name" type="text" name="" placeholder="Nombre(s)" id="" required>
+                </div>
+                <div class="col50">
+                    <input class="apellidos" type="text" name="" placeholder="Apellidos" id="" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col50">
+                    <input class="email" type="text" name="" placeholder="Email" id="" required>
+                </div>
+                <div class="col50">
+                    <input class="telefono" type="text" name="" placeholder="Telefono" id="" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col100">
+                    <textarea 
+                        class="message"
+                        name="yourTextarea"
+                        id="" 
+                        placeholder="Mensaje"
+                        rows="4" 
+                        cols="30" 
+                        required></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col100">            
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="infosResults"></div>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase.js"></script>
+        <script src="./js/app.js"></script>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2021 Practica Desarrollo web. All Right Reserved</p>
+    </div>
+    
+    <!--Funcion para el boton de hamburguesa menu-->
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+    <!--SCRIPT SWIPER-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 35,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+        },
+        loop: true
+        });
+    </script>
+</body>
+</html>
